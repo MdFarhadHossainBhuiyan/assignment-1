@@ -65,7 +65,7 @@ body {
   transition: background-color 0.3s ease; 
 }
 .sign-up-btn:hover {
-  background-color: #FFC107;
+  background-color: #FFC107; 
 }
 
 /* Banner Style */
@@ -107,7 +107,7 @@ body {
   transition: background-color 0.3s ease; 
 }
 .banner-btn:hover {
-  background-color: #FFC107;
+  background-color: #FFC107; 
 }
 
 /* Action Part Style */
@@ -151,6 +151,7 @@ body {
 }
 .action-btn:hover {
   background-color: #FFC107; 
+}
 
 .action-img {
   margin: 0px 10px;
