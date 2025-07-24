@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(245, 248, 255);
-}
+  font-family: 'Inter', sans-serif; 
 
 .container {
   max-width: 1140px;
@@ -21,6 +21,10 @@ body {
   border-radius: 10px;
   font-weight: bold;
   border: none;
+  transition: background-color 0.3s ease; 
+}
+.btn:hover {
+  background-color: #FFC107; 
 }
 
 /* Header Part Style */
@@ -41,10 +45,12 @@ body {
 }
 
 .logo {
-  color: #4E47FF;
-  font-weight: 900;
+  color: rgb(78, 71, 255);
+  font-family: 'Inter', sans-serif;
   font-size: 34px;
+  font-weight: 900;
   line-height: 150%;
+  margin-left: -80px;
 }
 
 .sign-up-btn {
@@ -56,9 +62,13 @@ body {
   border-radius: 10px;
   font-weight: bold;
   border: none;
+  transition: background-color 0.3s ease; 
+}
+.sign-up-btn:hover {
+  background-color: #FFC107;
 }
 
-/* banner style */
+/* Banner Style */
 .bg-header-banner {
   background-image: url(./Assets/Hero-bg.png);
   width: 1440px;
@@ -75,12 +85,13 @@ body {
 }
 
 .banner-title {
-  color: #252432;
-  width: 905px;
-  height: 152px;
+  color: rgb(37, 36, 50);
+  font-family: 'Raleway', sans-serif;
   font-size: 65px;
   font-weight: 700;
   line-height: 76px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .banner-btn {
@@ -92,6 +103,11 @@ body {
   border-radius: 10px;
   font-weight: 700;
   border: none;
+  font-family: 'Raleway', sans-serif;
+  transition: background-color 0.3s ease; 
+}
+.banner-btn:hover {
+  background-color: #FFC107;
 }
 
 /* Action Part Style */
@@ -108,19 +124,21 @@ body {
 }
 
 .action-title {
+  font-family: 'Raleway', sans-serif;
   color: rgb(37, 36, 50);
   font-size: 42px;
   font-weight: 700;
 }
 
 .action-p {
+  font-family: 'Raleway', sans-serif;
   color: rgba(37, 36, 50, 0.5);
-  font-family: Raleway;
   font-size: 24px;
   font-weight: 400;
 }
 
 .action-btn {
+  font-family: 'Raleway', sans-serif;
   background-color: #4E47FF;
   color: #FFFFFF;
   width: 229px;
@@ -129,14 +147,17 @@ body {
   border-radius: 10px;
   font-weight: bold;
   border: none;
+  transition: background-color 0.3s ease; 
 }
+.action-btn:hover {
+  background-color: #FFC107; 
 
 .action-img {
   margin: 0px 10px;
-  border-radius: 48px;
+  border-radius: 48px; 
 }
 
-/* Productive user */
+/* Productive User */
 .pro-user {
   height: 306px;
   display: flex;
@@ -162,7 +183,7 @@ body {
 
 .pro-title {
   color: rgb(37, 36, 50);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 38px;
   font-weight: 700;
   line-height: 45px;
@@ -187,6 +208,7 @@ body {
 }
 
 .stat-item h3 {
+  font-family: 'Inter', sans-serif;
   color: rgb(78, 71, 255);
   font-size: 80px;
   font-weight: 700;
@@ -195,12 +217,12 @@ body {
 }
 
 .stat-item p {
+  font-family: 'Inter', sans-serif;
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-weight: 400;
   margin: 10px 0 0;
 }
-
 
 /* Review Section */
 .review {
@@ -210,7 +232,7 @@ body {
 
 .review h2 {
   color: rgb(37, 36, 50);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 42px;
   font-weight: 700;
   text-align: center;
@@ -221,7 +243,6 @@ body {
   justify-content: space-between;
   gap: 20px;
   height: 243px;
-  /* margin: 50px 0px; */
 }
 
 .testimonial-card {
@@ -252,7 +273,7 @@ body {
 
 .testimonial-card h5 {
   color: rgb(30, 30, 30);
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 600;
   text-align: left;
@@ -260,7 +281,7 @@ body {
 
 .review-text {
   color: rgb(30, 30, 30);
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -289,20 +310,12 @@ body {
 .reviewer-info span {
   display: block;
   color: rgb(117, 117, 117);
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
 
-.shady-date {
-  color: rgb(179, 179, 179);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-/* Newsletter part style */
-
+/* Newsletter Part Style */
 .newsletter {
   display: flex;
   justify-content: space-between;
@@ -316,7 +329,7 @@ body {
   width: 528px;
   height: 232px;
   color: rgb(0, 0, 0);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 97px;
   font-weight: 700;
   align-items: center;
@@ -333,7 +346,7 @@ body {
 
 .contact-form label {
   color: rgb(0, 0, 0);
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin: 10px 0;
@@ -346,9 +359,7 @@ body {
   box-sizing: border-box;
   border: 1px solid rgb(214, 221, 237);
   border-radius: 10px;
-
   background: rgb(255, 255, 255);
-
 }
 
 .contact-form textarea {
@@ -366,14 +377,18 @@ body {
   font-weight: bold;
   border: none;
   color: rgb(255, 255, 255);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 150%;
   text-align: center;
+  transition: background-color 0.3s ease; 
+}
+.contact-btn:hover {
+  background-color: #FFC107; 
 }
 
-/* Footer part style */
+/* Footer Part Style */
 .footer {
   text-align: center;
   padding: 40px 20px;
@@ -395,14 +410,14 @@ body {
 
 .footer-logo {
   color: rgb(78, 71, 255);
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 100px;
   font-weight: 900;
 }
 
 .footer-tagline {
   color: rgb(137, 135, 161);
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   max-width: 531px;
   max-height: 48px;
   font-size: 16px;
@@ -429,7 +444,7 @@ body {
 .footer-nav ul li a {
   text-decoration: none;
   color: rgb(137, 135, 161);
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
